@@ -1,7 +1,4 @@
-szinek=["piros","kek","zold"];
-console.log(feladat01(szinek));
-
-function feladat01(szinek){
+export function feladat01(szinek){
     if(szinek.length<=1){
         return 0;
     }
